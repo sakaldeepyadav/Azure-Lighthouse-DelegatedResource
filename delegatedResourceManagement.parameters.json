@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspName": {
+            "value": "Azure User Group Nepal"
+        },
+        "mspOfferDescription": {
+            "value": "AUGN Fully Managed Service"
+        },
+        "managedByTenantId": {
+            "value": "09fsdsdb677-425a-4d83-aa73-7455477bc7"
+        },
+        "authorizations": {
+            "value": [
+                {
+                    "principalId": "5ae35555-7c67-4adb-876e-67657hf9ad4c6",
+                    "principalIdDisplayName": "Tier 1 Support",
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
+                },
+                {
+                    "principalId": "f29f1555-af6d-4555-b32c-6803a943d7d3",
+                    "principalIdDisplayName": "Tier 2 Support",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"                    
+                },
+
+                {
+                    "principalId": "fe514555-cf72-4agd42-8e55-dbf93d775cdf",
+                    "principalIdDisplayName": "Tier 3 Support",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"                    
+                }
+                
+            ]
+        }
+    }
+}

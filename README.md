@@ -1,3 +1,4 @@
+#The initial code is taken from Microsoft sample repository. 
 # Azure-Lighthouse-DelegatedResource
 Azure Lighthouse resource delegation
 
